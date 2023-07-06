@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration
 @Configuration("botConfig")
 class Bot(
     @Value("\${tg.token}")
-    private val token: String
+    private val token: String,
 ) {
 
     @Bean
